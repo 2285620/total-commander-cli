@@ -1,0 +1,10 @@
+# Configuration for git attributes
+# Normalize line endings
+
+Cargo.lock linguist-generated
+
+src/** linguist-detectable
+public/* linguist-vendored
+
+*.jpg binary
+src/**/*.ts linguist-detectable
